@@ -1,5 +1,5 @@
 <div class="container">
-<h2>Mis heroes Favoritos</h2>
+<h2>Mis Heroes </h2>
 <div class="row"> 
   <div class="col">
     <ul class="heroes">
@@ -12,25 +12,25 @@
   </div>
   <div class="col">
     <div *ngIf="selectedHero">
-      <h2>{{selectedHero.name | uppercase}} detalles</h2>
+      <h2>{{selectedHero.name | uppercase}} Detalles:</h2>
       <div><span>id: </span>{{selectedHero.id}}</div>
       <div>
-        <label for = "hero-name">Heroe Nombre: </label>
+        <label for = "hero-name"> Heroe Nombre: </label>
           <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="nombre">
         </div>
     
         <div>
-        <label for = "hero-edad">Heroe Edad: </label>
+        <label for = "hero-edad"> Heroe Edad: </label>
           <input id="hero-edad" [(ngModel)]="selectedHero.edad" placeholder="edad">
         </div>
     
         <div>
-          <label for = "hero-poder">Heroe Poder: </label>
+          <label for = "hero-poder"> Heroe Poder: </label>
             <input id="hero-poder" [(ngModel)]="selectedHero.poder" placeholder="poder">
           </div>
     
           <div>
-            <label for = "hero-univers">Heroe univers: </label>
+            <label for = "hero-univers"> Heroe universo: </label>
               <input id="hero-univers" [(ngModel)]="selectedHero.univers" placeholder="univers">
             </div>
     </div>

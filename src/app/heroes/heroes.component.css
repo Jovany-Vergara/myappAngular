@@ -8,7 +8,7 @@
     cursor: pointer;
     position: relative;
     left: 0;
-    background-color: rgb(18, 241, 204);
+    background-color: rgb(245, 245, 240);
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
@@ -17,29 +17,29 @@
 
   .heroes li:hover {
     color: #2c3a41;
-    background-color: #e6e6e6;
+    background-color: #f5eeee;
     left: .1em;
   }
 
   .heroes li.selected {
-    background-color: rgba(20, 230, 132, 0.87);
-    color: white;
+    background-color: rgba(16, 216, 230, 0.87);
+    color: rgb(5, 5, 5);
   }
   .heroes li.selected:hover {
-    background-color: #505050;
-    color: white;
+    background-color: #0cecc7;
+    color: rgb(8, 8, 8);
   }
   .heroes li.selected:active {
     background-color: black;
-    color: white;
+    color: rgb(190, 35, 35);
   }
 
   .heroes .badge {
     display: inline-block;
     font-size: small;
-    color: white;
+    color: rgb(245, 241, 241);
     padding: 0.8em 0.7em 0 0.7em;
-    background-color:#405061;
+    background-color:#050505;
     line-height: 1em;
     position: relative;
     left: -1px;

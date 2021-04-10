@@ -1,9 +1,23 @@
 <div *ngIf="hero">
     <h2>{{hero.name | uppercase}} Detalles</h2>
-    <div><span> Id: </span>{{hero.id | uppercase}} <input id="hero-id" [(ngModel)]="hero.id" placeholder="id"></div>
+    <div><span> Id: </span>{{hero.id}} <input id="hero-id" [(ngModel)]="hero.id" placeholder="id"></div>
     <div>
         <br>
         <label for="hero-name">Hero Nombre: </label>
         <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+    </div>
+    <div>
+        <label for="hero-edad"> Heroe Edad: </label>
+        <input id="hero-edad" [(ngModel)]="hero.edad" placeholder="edad">
+    </div>
+
+    <div>
+        <label for="hero-poder"> Heroe Poder: </label>
+        <input id="hero-poder" [(ngModel)]="hero.poder" placeholder="poder">
+    </div>
+
+    <div>
+        <label for="hero-univers"> Heroe universo: </label>
+        <input id="hero-univers" [(ngModel)]="hero.univers" placeholder="univers">
     </div>
 </div>

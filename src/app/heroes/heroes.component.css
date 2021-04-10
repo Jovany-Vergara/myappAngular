@@ -3,8 +3,9 @@
     list-style-type: none;
     padding: 0;
     width: 15em;
-  }
-  .heroes li {
+}
+
+.heroes li {
     cursor: pointer;
     position: relative;
     left: 0;
@@ -13,33 +14,35 @@
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
-  }
+}
 
-  .heroes li:hover {
+.heroes li:hover {
     color: #2c3a41;
     background-color: #f5eeee;
     left: .1em;
-  }
+}
 
-  .heroes li.selected {
+.heroes li.selected {
     background-color: rgba(16, 216, 230, 0.87);
     color: rgb(5, 5, 5);
-  }
-  .heroes li.selected:hover {
+}
+
+.heroes li.selected:hover {
     background-color: #0cecc7;
     color: rgb(8, 8, 8);
-  }
-  .heroes li.selected:active {
+}
+
+.heroes li.selected:active {
     background-color: black;
     color: rgb(190, 35, 35);
-  }
+}
 
-  .heroes .badge {
+.heroes .badge {
     display: inline-block;
     font-size: small;
     color: rgb(245, 241, 241);
     padding: 0.8em 0.7em 0 0.7em;
-    background-color:#050505;
+    background-color: #050505;
     line-height: 1em;
     position: relative;
     left: -1px;
@@ -47,8 +50,12 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
-  }
-  input {
-    padding: .5rem;
+}
 
-  }
+input {
+    padding: .5rem;
+}
+
+.title {
+    font-weight: bold;
+}

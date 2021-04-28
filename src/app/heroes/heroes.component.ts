@@ -27,6 +27,9 @@ export class HeroesComponent implements OnInit {
     console.log(this.messageService);
   }
 
+  onPlus(hero: Hero): void {
+   hero.nivel = hero.nivel + 1;
+  }
   getHeroes(): void {
     this.heroService.getHeroes()
         .subscribe(heroes => this.heroes = heroes);

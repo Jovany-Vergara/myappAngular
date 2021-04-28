@@ -1,15 +1,15 @@
 import {Hero} from './hero';
 
 export const HEROES: Hero[] = [
-    {id: 11, name: 'Superman', edad: 23, poder: 'Volar, Fuerza Sobrehumana, Telequinesis, Invisibilidad, Alas de Fuego', univers: 'DC'},
-    {id: 12, name: 'Wolverine', edad: 40, poder: 'Regeneracion, Garras Rectractiles' , univers: 'MARVEL'},
-    {id: 13, name: 'Hulk', edad: 30, poder: 'Fuerza', univers: 'MARVEL'},
-    {id: 14, name: 'Spider-Man', edad: 44, poder: 'Trepar Paredes'  , univers: 'MARVEL'},
-    {id: 15, name: 'Batman', edad: 34, poder: 'Intelecto Nivel Genio' , univers: 'DC'},
-    {id: 16, name: 'Flash', edad: 19, poder: 'Super Velocidad' , univers: 'DC'},
-    {id: 17, name: 'Super Girl' , edad: 25, poder: 'Volar, Fuerza Sobrehumana, Telequinesis, Invisibilidad, Alas de Fuego' , univers: 'DC'},
-    {id: 18, name: 'Scarlet Witch' , edad: 34, poder: 'Proyección Astral, Control del Tiempo' , univers: 'MARVEL'},
-    {id: 19, name: 'Woder Woman', edad: 22, poder: 'Diosa Griega' , univers: 'DC'},
-    {id: 20, name: ' Thor', edad: 1000, poder: 'Dios Del Trueno' , univers: 'MARVEL'},
-]
+    {id: 1, name: 'Joker', nivel: 23, poder: 'Agilidad. Coeficiente intelectual de genio', univers: 'DC'},
+    {id: 2, name: 'Loki', nivel: 40, poder: 'Inteligencia sobrehumana, fuerza, longevidad, magia' , univers: 'MARVEL'},
+    {id: 3, name: 'Goku Black', nivel: 30, poder: 'sobrepasar su fuerza', univers: 'DRAGON BALL'},
+    {id: 4, name: 'Venom', nivel: 44, poder: 'Copia los poderes de cualquier personaje Cambios de forma' , univers: 'MARVEL'},
+    {id: 5, name: 'DarkSeid', nivel: 34, poder: 'Inmortalidad Atributos físicos sobrehumanos' , univers: 'DC'},
+    {id: 6, name: 'Lobo', nivel: 19, poder: 'Superfuerza, resistencia y fortaleza' , univers: 'DC'},
+    {id: 7, name: 'Harley' , nivel: 25, poder: 'Conocimientos profesionales de psiquiatría' , univers: 'DC'},
+    {id: 8, name: 'Apocalipsis' , nivel: 34, poder: 'posee varios poderes que lo hacen casi invencible' , univers: 'MARVEL'},
+    {id: 9, name: 'Brainiac', nivel: 22, poder: 'súper fuerza y durabilidad' , univers: 'DC'},
+    {id: 10, name: ' Galactus', nivel: 1000, poder: 'Poder cósmico, control absoluto de la energía cósmica' , univers: 'MARVEL'},
+];
 

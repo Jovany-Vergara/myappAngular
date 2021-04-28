@@ -1,7 +1,7 @@
 export interface Hero{
     id: number;
     name: string;
-    edad: number;
+    nivel: number;
     poder: string;
     univers: string;
 }
